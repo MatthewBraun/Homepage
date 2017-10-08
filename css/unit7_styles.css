@@ -1,0 +1,73 @@
+/*<!-- Unit 07 Stylesheet: Matthew S. Braun -->*/
+body{
+	background-color: black;
+	font-family: Castellar;
+	color: white;
+}
+
+header{
+	text-align:center;
+}
+
+div#wrapper{
+	width:90%;
+	margin: 0px auto;
+	padding:25px;
+	background-image: url("../images/leaf_background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+article.inlineblock{
+	display: inline-block;
+}
+
+img#alignwithapp{
+	vertical-align:-485px;
+}
+
+h1{
+	text-align:center;
+	font-size:30px;
+	font-family:times;
+	font-weight:bold;
+	color:red;
+}
+
+h3{
+	color:red;
+	text-align:center;
+}
+
+div.imageonleft{
+	float:left;
+	font-size:7pt;
+	font-style:italic;
+	font-family:arial;
+	text-align: left;
+	padding:10px;
+}
+
+div.imageonright{
+	float:right;
+	font-size:7pt;
+	font-style:italic;
+	font-family:arial;
+	text-align: left;
+	padding:10px;
+}
+
+div.gifimage{
+	background-color:transparent;
+	height:462px;
+	background-image: url("../images/iphone.gif");
+	background-repeat: no-repeat;
+	background-position:50% 50%;
+}
+
+footer{
+	font-size:18pt;
+	text-align:center;
+	padding-bottom:1%;
+	background-color:#ADD8E6;
+}

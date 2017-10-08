@@ -1,0 +1,26 @@
+/*<!-- Unit 05 Stylesheet: Matthew S. Braun -->*/
+a{
+	font-family: 'Comic Sans MS',arial, verdana, sans-serif;
+	text-decoration: none;
+	font-weight:normal;
+	}
+a:link{
+	color: #0000FF;
+	}
+a:visited{
+	color: #FF0000;
+	}
+a:hover{
+	color:#FFFFFF;
+	font-size:19px;
+	text-decoration: underline;
+	background-color:blue;
+	font-weight:bold;
+	}
+a:active{
+	color: #00FF00;
+	}
+nav > a{
+	padding-left:1%;
+	padding-right:1%;
+	}

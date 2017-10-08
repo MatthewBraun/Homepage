@@ -1,0 +1,30 @@
+/*<!-- Unit 02 Stylesheet: Matthew S. Braun -->*/
+
+	body {font-size: 12pt;
+		font-family: times-new-roman, times,sans-serif;
+		}
+	
+	p {line-height: 14pt;
+		}
+	
+	h1 {font-size: 20pt;
+		font-weight: bold;
+		font-family: Arial, Helvetica, sans-serif;
+		line-height: 16pt;
+		}
+	
+	p.description {font-size: 17pt;
+		font-weight: bold;
+		color: #CC0099;
+		}
+	
+	img {padding: 5pt;
+		float: left;
+		}
+	
+	footer{font-size:9pt;
+		font-style:italic;
+		text-align: center;
+		padding-top:25pt;
+		}
+	

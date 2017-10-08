@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<Meta charset="UTF-8">
+		<title> Unit 13 by Matthew S. Braun</title>
+		<style type="text/css">
+		fieldset{
+			padding: 5px;
+			border: 4px dashed blue;
+			}
+			
+		fieldset.black{
+			background-color:#FFFFE0;
+			}
+			
+		legend{
+			font-weight: bold;
+			font-size: 25pt;
+			}
+		p{
+			padding-top:5px;
+			}	
+			
+		label.question{
+			font-family: arial;
+			width: 225px;
+			float: left;
+			text-align: left;
+			font-weight: bold;
+			}
+			
+		span.question{
+			font-family: arial;
+			font-weight: bold;
+			}
+			
+		input, textarea, select{
+			border: 1px solid #000;
+			padding: 3px;
+			}
+			
+		#buttons{
+			margin-top: 12px;
+			background-color:yellow;
+			}
+		
+		</style>
+	</head>
+	<body>
+		<h1>Information Request</h1>
+		<form name="my_form" method="post" action="mailto:&#098;&#114;&#097;&#117;&#109;&#053;&#057;&#050;&#056;&#064;&#115;&#116;&#117;&#100;&#101;&#110;&#116;&#115;&#046;&#117;&#119;&#099;&#046;&#101;&#100;&#117;">
+			<fieldset>
+				<legend>Contact Information</legend>
+				<!-- First Name-->
+				<p>
+					<label class="question" for="the_first_name">First Name</label>
+					<input type="text" id="the_first_name" name="the_first_name" placeholder="Enter your first name." size="50" required autofocus />
+				</p>
+				<!-- Last Name -->
+				<p>
+					<label class="question" for="the_last_name">Last Name</label>
+					<input type="text" id="the_last_name" name="the_last_name" placeholder="Enter your last name." size="50" required autofocus />
+				</p>
+				<!-- Email Address -->
+				<p>
+					<label class="question" for="the_email">E-mail Address</label>
+					<input type="email" id="the_email" name="the_email"	placeholder="Enter your email address." size="50" required />
+				</p>
+			</fieldset>
+		
+		
+			<fieldset class="black">
+				<legend>Solar Interest Survey</legend>
+				<p>
+					<span class="question">I am interested in solar Power.</span><br/>
+					
+					<input type="radio" id="interested_yes" name="solar_power" value="page" />
+						<label for="solar_power">Yes</label>
+					<input type="radio" id="interested_no" name="solar_power" value="page" />
+						<label for="solar_power">No</label><br/>
+				
+						
+					<label for="rate_interested"><span class="question">Rate your interest in solar power on a scale of 0 
+					(no interest) to 5 (very interested).</span>
+					</label><br/>
+					<input type="number" id="rate_interested" name="rate_interested" min="0" max="5" step="1" value="3">
+					</input>
+				</p>
+			</fieldset>
+			
+			
+			<fieldset>
+				<legend>Solar Information Request</legend>
+				<label for="request_info"><span class="question">I would like to reveive information on the following subjects.</span>\
+				</label><br/>
+					<select name="request_info" size="4" multiple>
+						<option value="Solar Arrays">Solar Arrays</option>
+						<option value="Solar Inverters">Solar Inverters</option>
+						<option value="Solar Arrays">Solar Arrays</option>
+						<option value="Solar Inverters">Solar Inverters</option>
+						<option value="Solar Inverters">Solar Inverters</option>
+						<option value="Solar Arrays">Solar Arrays</option>
+						<option value="Solar Inverters">Solar Inverters</option>
+					</select>
+					
+			<div >
+				<input id="buttons" type="submit" value="Click to Submit" /> or
+				<input id="buttons" type="reset" value="Erase All" />
+			</div>	
+		</form>
+	</body>
+</html>

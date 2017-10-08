@@ -1,0 +1,31 @@
+/*<!-- Unit 06 Stylesheet: Matthew S. Braun -->*/
+table{
+	border: 2px dashed gray;
+	background-color:black;
+	padding:1%;
+	width: 75%;
+	color: white;
+}
+
+td{
+	border: 1px dashed gray;
+
+}
+
+th{	
+	border: 2px dashed black;
+	background-color:yellow;
+	font-size: 20px;
+	color:red;
+}
+
+p.italic{
+    font-style: italic;
+}
+
+article.narrative{
+    -webkit-column-count: 3;  /*<!--Chrome, Safari, Opera-->*/
+   	-moz-column-count: 3; /*<!--Firefox -->*/
+   	column-count: 3;
+}
+ 

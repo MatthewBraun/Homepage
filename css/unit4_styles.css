@@ -1,0 +1,25 @@
+/*<!-- Unit 04 Stylesheet: Matthew S. Braun -->*/
+
+	p.class1 {font-family: Arial, Helvetica, sans-serif;
+		font-size: 10pt;
+		font-weight: bold;
+		color: red;
+		}
+		
+	.class2 {font-family: Arial, Helvetica, sans-serif;
+		font-size: 14pt;
+		font-weight: bold;
+		color: blue;
+		}
+		
+	.class3 {border-radius:8px;
+			border:9px;
+			border-style:double;
+			border-color:blue;
+			height: 175px;
+			padding:1%;
+			width: 300px;
+			text-align:center;
+			background-color:black;
+			color:white;
+			}	
