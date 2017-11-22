@@ -1,6 +1,13 @@
-body{
-  background-color:#DCDCDC;
+body {
+  background-color:#a5a5d8;
 }
-h1,h2,h3{
+h1,h2,h3 {
   text-align:center;
+}
+ section { 
+    border: 12px solid #dcdcdc;
+    border-style: ridge;
+    padding: 1%;
+    text-align: center;
+    border-radius: 50px;
 }
