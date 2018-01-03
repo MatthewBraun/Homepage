@@ -1,3 +1,4 @@
+/*
 body {
     background-image: url("images/kevin-bhagat-343433.jpg");
     color: white;
@@ -29,6 +30,7 @@ nav li {
     border: white 2px solid;
     background-color: gray;
 }
+*/
 
 body {
     font: 15px/1.5 Arial, Helvetica, sans-serif;
@@ -121,7 +123,10 @@ header a:hover {
 
 #showcase {
     min-height: 400px;
-    background: url('../img/showcase.jpg') no-repeat 0 -400px;
+    background: url('../images/annie-spratt-294450.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
     color: #ffffff;
 }
@@ -163,11 +168,16 @@ header a:hover {
 
 /* Boxes */
 
+#cert {
+    text-align: center;
+}
+
 #boxes {
     margin-top: 20px;
 }
 
 #boxes .box {
+    color: black;
     float: left;
     text-align: center;
     width: 30%;
@@ -175,7 +185,7 @@ header a:hover {
 }
 
 #boxes .box img {
-    width: 90px;
+    width: 120px;
 }
 
 
