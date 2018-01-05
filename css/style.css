@@ -1,37 +1,3 @@
-/*
-body {
-    background-image: url("images/kevin-bhagat-343433.jpg");
-    color: white;
-    text-align: center;
-    background-color: #000022;
-}
-
-header {
-    text-align: center;
-}
-
-footer {
-    background-color: #3d4348;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-:hover a {
-    color: lightcyan;
-}
-
-nav li {
-    list-style: none;
-    display: inline;
-    padding: 2%;
-    border: white 2px solid;
-    background-color: gray;
-}
-*/
-
 body {
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
@@ -40,7 +6,9 @@ body {
 }
 
 
-/* Global */
+/*****
+Global
+*****/
 
 .container {
     width: 80%;
@@ -71,7 +39,8 @@ ul {
 }
 
 
-/* Header **/
+/*****
+Header **/
 
 header {
     background: #35424a;
@@ -119,7 +88,9 @@ header a:hover {
 }
 
 
-/* Showcase */
+/*****
+Showcase
+*****/
 
 #showcase {
     min-height: 400px;
@@ -142,31 +113,9 @@ header a:hover {
 }
 
 
-/* Newsletter */
-
-#newsletter {
-    padding: 15px;
-    color: #ffffff;
-    background: #35424a
-}
-
-#newsletter h1 {
-    float: left;
-}
-
-#newsletter form {
-    float: right;
-    margin-top: 15px;
-}
-
-#newsletter input[type="email"] {
-    padding: 4px;
-    height: 25px;
-    width: 250px;
-}
-
-
-/* Boxes */
+/*****
+Boxes
+*****/
 
 #cert {
     text-align: center;
@@ -189,7 +138,9 @@ header a:hover {
 }
 
 
-/* Sidebar */
+/*****
+Sidebar
+*****/
 
 aside#sidebar {
     float: right;
@@ -204,7 +155,9 @@ aside#sidebar .quote textarea {
 }
 
 
-/* Main-col */
+/*****
+Main-col
+*****/
 
 article#main-col {
     float: left;
