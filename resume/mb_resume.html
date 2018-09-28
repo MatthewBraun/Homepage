@@ -1,135 +1,244 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="resume.css">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font: 16px Helvetica, Sans-Serif;
+            line-height: 24px;
+            background: url(/background.jpg);
+            width: 800px;
+            margin: 40px auto 60px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        #pic {
+            float: right;
+            margin: -30px 0 0 0;
+        }
+
+        h1 {
+            margin: 0 0 16px 0;
+            padding: 0 0 16px 0;
+            font-size: 42px;
+            font-weight: bold;
+            letter-spacing: -2px;
+            border-bottom: 1px solid #999;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin: 0 0 6px 0;
+            position: relative;
+        }
+
+        h2 span {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            font-style: italic;
+            font-family: Georgia, Serif;
+            font-size: 16px;
+            color: #999;
+            font-weight: normal;
+        }
+
+        p {
+            margin: 0 0 16px 0;
+        }
+
+        a {
+            color: #999;
+            text-decoration: none;
+            border-bottom: 1px dotted #999;
+        }
+
+        a:hover {
+            border-bottom-style: solid;
+            color: black;
+        }
+
+        ul {
+            margin: 0 0 32px 17px;
+        }
+
+        #objective {
+            width: 500px;
+            float: left;
+        }
+
+        #objective p {
+            font-family: Georgia, Serif;
+            font-style: italic;
+            color: #666;
+        }
+
+        dt {
+            font-style: italic;
+            font-weight: bold;
+            font-size: 18px;
+            text-align: right;
+            padding: 0 26px 0 0;
+            width: 150px;
+            float: left;
+            height: 100px;
+            border-right: 1px solid #999;
+        }
+
+        dd {
+            width: 600px;
+            float: right;
+        }
+
+        dd.clear {
+            float: none;
+            margin: 0;
+            height: 15px;
+        }
+    </style>
     <title>Matthew Braun Resume</title>
 </head>
 
 <body>
-    <section>
-        <h1> Matthew Braun </h1>
-        <p> Dodgeville, WI 53533
-            <br /> (608) 475-1485
-            <br /> matthew_braun@hotmail.com
-            <br /> </p>
+    <img src="mb_headshot.png" alt="Photo of Matthew's Face" id="pic" />
+    <section id="contact-information">
+        <div id="contact-info" class="vcard">
+            <h1 class="fn">Matthew Braun</h1>
+            <p>
+                Cell: <span class="tel">608-475-1485</span><br />
+                Email: <a class="email" href="mailto:matthew_braun@hotmail.com">matthew_braun@hotmail.com</a>
+            </p>
+        </div>
     </section>
-    <section>
-        <h3> Summary </h3>
-        <p> I've always been a computer hobbyist and enjoy problem solving. The past couple of years I’ve really enjoyed web
-            development. JavaScript has been very entertaining and has become my favorite programming language. I don’t have
-            a programmer’s job history but I know programming is where I will find my career. I’m located in Dodgeville and
-            currently still enrolled at UW-Platteville online. </p>
+    <section id="#objective-statment">
+        <div id="objective">
+            <p> I've always been a computer hobbyist and enjoy problem solving. The past couple of years I’ve really
+                enjoyed web development. JavaScript has been very entertaining and has become my favorite programming
+                language. I don’t have a programmer’s job history but I know programming is where I will find my
+                career. I’m located in Dodgeville and currently still enrolled at UW-Platteville online. </p>
+        </div>
+        <div class="clear"></div>
     </section>
-    <section>
-        <h3> Education </h3>
-        <h4> Richland Center High School </h4>
-        <p> High School Graduated June 2010 </p>
-        <p> High school allowed me to explore some different hobbies such as photo editing, movie creating, and woodworking.
-            I still dabble in these hobbies to this day. </p>
-        <h4>
-            <a href="https://www.richland.uwc.edu"> University of Wisconsin – Richland </a>
-        </h4>
-        <p>
-            <a href="http://richland.uwc.edu/central-only/campus-based-copy/campus-specific/associate-degree"> Associate of Arts and Sciences (AAS) degree Graduated May 2016 </a>
-        </p>
-        <p> Going back to school was challenging but has turned out to be the best decision of my life. Some of the courses I'd
-            like to highlight:
+    <!-- START OF EDUCATION SECTION  -->
+    <section id="#education">
+        <dl>
+            <dd class="clear"></dd>
+            <dt> Education </dt>
+            <dd>
+                <!-- START OF UWPLATTEVILLE -->
+                <h2>University of Wisconsin-Platteville <span>2017-Current</span></h2>
+                <p><a href="https://www.uwplatt.edu/distance-education/applied-computing-degree-requirements">Bachelor
+                        of Science in Applied Computing </a></p>
+                <p> Currently studying with UW-Platteville's distance education program for a B.S. in Applied
+                    Computing. This online program allows me the flexibility to study and work around my schedule. This
+                    semester I'm taking:
+                    <ul>
+                        <li><a href="../APC/APC 340 Legal and Ethical Responsibilities of the IT Professional/syllabus/syllabus.html"
+                                target="_blank"> Legal and Ethical Responsibilities of the IT Professional </a>
+                        </li>
+                        <li><a href="../APC/APC 350 Programming II/syllabus/syllabus.html" target="_blank"> Java
+                                Programming II</a>
+                        </li>
+                        <li><a href="../APC/APC 360 Database Management 1/syllabus/syllabus.html" target="_blank">Database
+                                Management 1 </a>
+                        </li>
+                        <li><a href="../APC/APC 370 Systems Analysis and Design/syllabus/syllabus.html" target="_blank">Systems
+                                Analysis and Design </a>
+                        </li>
+                    </ul>
+                </p>
+                <!-- START OF UWSTOUT -->
+                <h2>University of Wisconsin – Stout<span> Transferred May 2017 </span></h2>
+                <p> From UW-Richland I transferred to UW-Stout with the goal in mind to obtain a Bachelor of Science
+                    degree in Information and Communication Technologies. I started in the summer term to gain early
+                    credits and after three semesters decided to change majors. I wanted to transition into a B.S. in
+                    Computer Science. I did very well while at <a href="https://www.uwstout.edu">UW-Stout</a> including
+                    receiving two
+                    Chancellor's Awards for
+                    receiving High GPAs. Courses I'd like to highlight are:
+                    <ul>
+                        <li> Web Production and Distribution </li>
+                        <li> Networking Fundamentals II </li>
+                        <li> Introduction to Programming </li>
+                        <li> Dynamic Web Technologies</li>
+                    </ul>
+                </p>
+                <!-- START OF UWRICHLAND -->
+                <h2>University of Wisconsin – Richland<span>Graduated May 2016</span></h2>
+                <p><a href="http://richland.uwc.edu/central-only/campus-based-copy/campus-specific/associate-degree">Associate
+                        of Arts and Sciences (AAS) degree</a></p>
+                <p> Going back to school was challenging but has turned out to be the best decision of my life.
+                    UW-Richland gave me
+                    the flexibility to discover my passion for programming. Some of
+                    the courses I'd like to highlight:
+                    <ul>
+                        <li>Web Page Development </li>
+                        <li>Foundations of Physics </li>
+                        <li>Problem Solving/Programming C++ </li>
+                        <li>Word/Database/Spreadsheet Concepts </li>
+                    </ul>
+                </p>
+                <!-- START OF RICHLAND HIGH SCHOOL -->
+                <h2> Richland Center High School<span> High School Graduated June 2010 </span></h2>
+                <p> High school allowed me to explore some different hobbies such as photo editing, movie creating, and
+                    woodworking. I still dabble in these hobbies to this day. </p>
+            </dd>
+            <dd class="clear"></dd>
+    </section>
+    <!-- SECTION OF EMPLOYMENT HISTORY -->
+    <section id="#employment">
+        <dd class="clear"></dd>
+        <dt> Employment History </dt>
+        <dd>
+            <h2> UW-Richland<span> Student English Tutor September 2015 - May 2016 </span></h2>
+            <p> I was hired to assist fellow students with their English papers. This provided me with the opportunity
+                to talk with and view others perspective of the school experience. I was rehired for the second
+                semester.</p>
+            <h2> NU-PAK Inc.<span> Machine Operator April 2013 - July 2014 </span></h2>
+            <p> Followed strict food safety operations. Operated different machines that packaged food products.
+                Performed daily routine operations to make adjustments to change from a list of products. This job
+                position didn’t provide room for growth and that’s when I decided to go back to school and do something
+                I enjoy doing every day for a company I want to be with. </p>
+        </dd>
+        <dd class="clear"></dd>
+    </section>
+    <!-- START OF PERSSIONAL SECTION -->
+    <section id="professional-skills">
+        <dd class="clear"></dd>
+        <dt>Professional Skills</dt>
+        <dd>
             <ul>
-                <li> Web Page Development </li>
-                <li>Foundations of Physics </li>
-                <li>Problem Solving/Programming C++ </li>
-                <li>Word/Database/Spreadsheet Concepts </li>
-            </ul> UW -Richland gave me the flexibility to discover my passion for programming. </p>
-        <h4>
-            <a href="https://www.uwstout.edu"> University of Wisconsin – Stout </a>
-        </h4>
-        <p> Transferred Transferred May 2017 </p>
-        <p> From UW-Richland I transferred to UW-Stout with the goal in mind to obtain a Bachelor of Science degree in Information
-            and Communication Technologies. I started in the summer term to gain early credits and after three semesters
-            decided to change majors. I wanted to transition into a B.S. in Computer Science. I did very well while at UW-Stout
-            including receiving two Chancellor's Awards for receiving High GPAs. Courses I'd like to highlight are:
-            <ul>
-                <li> Web Production and Distribution </li>
-                <li> Networking Fundamentals II </li>
-                <li> Introduction to Programming </li>
-                <li> Dynamic Web Technologies</li>
+                <li>Microsoft Office</li>
+                <li>Windows 10</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>MySQL</li>
+                <li>C++</li>
             </ul>
-        </p>
-        <h4>
-            <a href="https://www.uwplatt.edu/"> University of Wisconsin-Platteville </a>
-        </h4>
-        <p>
-            <a href="https://www.uwplatt.edu/distance-education/applied-computing-degree-requirements"> Bachelor of Science in Applied Computing </a>
-        </p>
-        <p> Currently studying with UW-Platteville's distance education program for a B.S. in Applied Computing. This online
-            program allows me the flexibility to study and work around my schedule. This semester I have four courses.
-            <ul>
-                <!-- 
-                <li>Java Programming</li>
-                <li>Discrete Mathematics</li>
-                <li>Technical And Professional Communication</li>
-                <li>Introduction To Business</li> 
-                -->
-                <li>
-                    <a href="../APC/APC 340 Legal and Ethical Responsibilities of the IT Professional/syllabus/syllabus.html"
-                        target="_blank"> Legal and Ethical Responsibilities of the IT Professional </a>
-                </li>
-                <li>
-                    <a href="../APC/APC 350 Programming II/syllabus/syllabus.html" target="_blank"> Java Programming II</a>
-                </li>
-                <li>
-                    <a href="../APC/APC 360 Database Management 1/syllabus/syllabus.html" target="_blank"> Database Management 1 </a>
-                </li>
-                <li>
-                    <a href="../APC/APC 370 Systems Analysis and Design/syllabus/syllabus.html" target="_blank"> Systems Analysis and Design </a>
-                </li>
-            </ul>
-        </p>
+        </dd>
+        <dd class="clear"></dd>
+        <!-- START OF HOBBIES SECTION -->
+        <dt>Hobbies</dt>
+        <dd>Tinkering with eletronics, Camping, Canoeing the Wisconsin River</dd>
+        <dd class="clear"></dd>
+        <!-- START OF REFERENCE SECTION -->
+        <dt>References</dt>
+        <dd>Available on request</dd>
+        <dd class="clear"></dd>
+        </dl>
     </section>
-    <section>
-        <h2> Employment History </h2>
-        <h4> UW-Richland </h4>
-        <h5> Student English Tutor September 2015 - May 2016 </h5>
-        <p> I was hired to assist fellow students with their English papers. This provided me with the opportunity to talk with
-            and view others perspective of the school experience. I was rehired for the second semester. </p>
-        <h4> NU-PAK Inc. </h4>
-        <h5> Machine Operator April 2013 - July 2014 </h5>
-        <p> Followed strict food safety operations. Operated different machines that packaged food products. Performed daily
-            routine operations to make adjustments to change from a list of products. This job position didn’t provide room
-            for growth and that’s when I decided to go back to school and do something I enjoy doing every day for a company
-            I want to be with. </p>
-    </section>
-    <section>
-        <h2>Professional Skills</h2>
-        <ul>
-            <li>Microsoft Office: Intermediate</li>
-            <li>Windows 10: Intermediate</li>
-            <li>HTML5: Beginner</li>
-            <li>CSS3: Beginner</li>
-            <li>JavaScript: Beginner</li>
-            <li>Bootstrap: Beginner</li>
-            <li>MySQL</li>
-            <li>C++: Beginner</li>
-        </ul>
-    </section>
-    <!-- <section>
-        <h2> References </h2>
-        <p>
-            <p> Daniel Henke
-                <br/> English Professor / Work Manager
-                <br/> 715-864-0476
-                <br/> daniel.henke@uwc.edu
-                <br/> University of Wisconsin - Richland
-                <br/> 1200 US-14, Richland Center, WI 53581
-                <br/> </p>
-        </p>
-        <p>
-            <p> Andrew Bauer
-                <br/> Project Members - UW-Stout
-                <br/> 715-279-0004
-                <br/> bauera0983@my.uwstout.edu
-                <br/> </p>
-        </p>
-    </section> -->
 </body>
+
 </html>
