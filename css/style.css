@@ -2,9 +2,23 @@ body {
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-color: #5ec1da;
+    background-color: #3c7113;
+    color: rgba(255, 255, 255, 0.5);
 }
 
+footer a {
+    color: #B8E297;
+}
+
+footer {
+    border-color: #b8e297;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    color: #B8E297;
+    text-align: center;
+    padding: 1em;
+    background-color: #214B00;
+}
 
 /*****
 Global
@@ -21,19 +35,11 @@ ul {
     padding: 0;
 }
 
-.button_1 {
-    height: 38px;
-    background: #e8491d;
-    border: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #ffffff;
-}
 
 .dark {
     padding: 15px;
-    background: #35424a;
-    color: #ffffff;
+    background: #214b00;
+    color: #b8e297;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -44,18 +50,20 @@ Header
 **/
 
 header {
-    background: #35424a;
-    color: #ffffff;
+    background: #5E9732;
+    color: #b8e297;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #e8491d 3px solid;
+    text-align: center;
+    /* border-bottom: #e8491d 3px solid; */
 }
 
 header a {
-    color: #ffffff;
+    color: #b8e297;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
+    /* margin-right: 1em; */
 }
 
 header li {
@@ -86,32 +94,6 @@ header .current a {
 header a:hover {
     color: #cccccc;
     font-weight: bold;
-}
-
-
-/*****
-Showcase
-*****/
-
-#showcase {
-    min-height: 400px;
-    /* background: url('../images/annie-spratt-294450.jpg'); */
-    background-color: #35424a;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #ffffff;
-}
-
-#showcase h1 {
-    margin-top: 100px;
-    font-size: 55px;
-    margin-bottom: 10px;
-}
-
-#showcase p {
-    font-size: 20px;
 }
 
 
