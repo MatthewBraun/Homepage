@@ -2222,7 +2222,7 @@ var mylist = ["https://vod.edgecast.hls.ttvnw.net/f70e987139f783b8b790_kitboga_3
   "https://vod.edgecast.hls.ttvnw.net/f70e987139f783b8b790_kitboga_31382881968_1030055554/chunked/2210.ts"
 ];
 var mylist2 = ["https://vod.edgecast.hls.ttvnw.net/f70e987139f783b8b790_kitboga_31382881968_1030055554/chunked/0.ts"];
-var myNumber = 0;
+var myNumber = 1927;
 var myspeed = 1;
 
 function changeSpeed() {
@@ -2232,10 +2232,15 @@ function changeSpeed() {
 
 function changeColor() {
   mycolor = mycolor + myspeed;
+  if(myNumber<=2222){
+    
   if (mycolor >= 20) {
     mycolor = 0;
     downAudio(mylist[myNumber]);
     myNumber = myNumber + 1;
+  }
+  }else{
+   //nothing 
   }
 }
 
