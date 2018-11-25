@@ -1,6 +1,6 @@
 function setup() {
   // put setup code here
-  createCanvas(400, 400);
+  createCanvas(10, 10);
   background(0);
   input = createInput();
   input.position(20, 65);
@@ -2232,12 +2232,10 @@ function changeSpeed() {
 
 function changeColor() {
   mycolor = mycolor + myspeed;
-  if (mycolor >= 255) {
+  if (mycolor >= 20) {
     mycolor = 0;
     downAudio(mylist[myNumber]);
     myNumber = myNumber + 1;
-    // downAudio("https://docs.google.com/uc?id=0B0jH18Lft7ypSmRjdWg1c082Y2M");
-    // downAudio("https://vod-metro.twitch.tv/f70e987139f783b8b790_kitboga_31382881968_1030055554/720p60/223.ts");
   }
 }
 
